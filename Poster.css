@@ -1,0 +1,49 @@
+body {
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+    padding: 0 40px;
+    grid-template-areas: ". content content content cnontent .";
+}
+
+.content {
+    grid-area: content;
+    max-width: 1000px;
+    width: 100%;
+}
+
+.dark-header {
+    background-color:#1539a5;
+    color:white;
+}
+
+.brand-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    width: 100px;
+    margin-right: .5rem;
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul {
+    display: table;
+    margin: 0 auto;
+}
+
+img{
+    border: 10px black;
+
+}
